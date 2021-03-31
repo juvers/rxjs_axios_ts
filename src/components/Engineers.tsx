@@ -28,7 +28,7 @@ const Engineers = (props: CrudProps<Engineer>) => {
     return () => {
       changeSubscription?.unsubscribe();
     };
-  }, []);
+  }, [props]);
 
   return (
     <>

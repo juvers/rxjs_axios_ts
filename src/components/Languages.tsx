@@ -28,7 +28,7 @@ const Languages = (props: CrudProps<Language>) => {
     return () => {
       changeSubscription?.unsubscribe();
     };
-  }, [props.change]);
+  }, [props]);
 
   return (
     <>
