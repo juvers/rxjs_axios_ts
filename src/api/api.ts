@@ -45,5 +45,5 @@ const deleteR = <T>(url: string, id: number): Observable<T | void> => {
     map((result) => result.data)
   );
 };
-
-export default { get, post, put, patch, delete: deleteR };
+const api = { get, post, put, patch, delete: deleteR };
+export default api;
